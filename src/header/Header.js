@@ -14,6 +14,7 @@ const HeaderContainer = styled.div`
     background-color: #292f45;
     align-items: center;
     padding: 3rem 0 3rem 5rem;
+    color: white;
 `;
 
 const LogoContainer = styled.div`
