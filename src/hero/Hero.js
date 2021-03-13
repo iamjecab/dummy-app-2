@@ -19,7 +19,12 @@ const HeroWrapper = styled.div`
     justify-content: center;
 `;
 
-const TextContainer = styled.div``;
+const TextContainer = styled.div`
+    margin-top: 4rem;
+    h1:nth-child(3) {
+        margin: 3rem 0 3rem 0;
+    }
+`;
 
 const Hero = () => {
     return (

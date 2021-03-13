@@ -27,13 +27,14 @@ const TextWrapper = styled.div`
     width: 20rem;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 `;
 
 export const Text = styled.h1`
     font-size: ${(props) => props.size}rem;
-    color: white;
+    color: inherit;
     font-weight: 300;
-    cursor: pointer;
+    cursor: inherit;
     font-weight: ${(props) => props.weight};
 `;
 
